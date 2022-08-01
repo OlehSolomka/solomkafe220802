@@ -8,7 +8,6 @@ interface Props {
 const Container = ({children}: Props)=>{
     return(
         <div className={s.container}>
-            <p>Container</p>
         {children}
         </div>
     )
