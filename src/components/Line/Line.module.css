@@ -1,0 +1,35 @@
+.text {
+  display: inline-block;
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+}
+
+.line {
+  display: block;
+  height: 30px;
+  width: 100%;
+}
+
+.lineWrap {
+  display: block;
+}
+
+@media screen and (min-width: 420px) {
+  .lineWrap {
+    display: flex;
+  }
+
+  .text {
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    text-align: right;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+  }
+}
